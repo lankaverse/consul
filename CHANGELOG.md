@@ -2,6 +2,92 @@
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [1.5.0](https://github.com/consul/consul/tree/1.5.0) (2022-05-xx)
+
+[Full Changelog](https://github.com/consul/consul/compare/1.4.1...1.5.0)
+
+### Added
+
+- **Budgets:** Add hide money option for approval budgets [\#4601](https://github.com/consul/consul/pull/4601)
+- **Documentation:** Add development instructions regarding i18n translations [\#4816](https://github.com/consul/consul/pull/4816)
+- **GraphQL:** Make it possible to customize GraphQL types [\#4841](https://github.com/consul/consul/pull/4841)
+- **GraphQL:** Add new GraphQL types & schema [\#4766](https://github.com/consul/consul/pull/4766)
+- **Maintenance:** Describe enabled processes in the consul.json URL [\#4845](https://github.com/consul/consul/pull/4845)
+- **Newsletter:** Include link to unsubscribe in email notifications [\#4301](https://github.com/consul/consul/pull/4301)
+- **Newsletter:** Add geozones as user segments [\#2859](https://github.com/consul/consul/pull/2859)
+- **SDG:** Add cs icon of SDGs [\#4782](https://github.com/consul/consul/pull/4782)
+- **UX:** Add notice after destroying a banner [\#4848](https://github.com/consul/consul/pull/4848)
+
+### Changed
+
+- **Accessibility:** Make buttons to vote more accessible [\#4776](https://github.com/consul/consul/pull/4776)
+- **Accessibility:** Make "participation not allowed" message accessible [\#4764](https://github.com/consul/consul/pull/4764)
+- **Accessibility:** Allow hiding users without hiding their content [\#4214](https://github.com/consul/consul/pull/4214)
+- **Authentication:** Send informative email for already confirmed users [\#4228](https://github.com/consul/consul/pull/4228)
+- **Budgets:** Add and improve hint information related to phases duration [\#4806](https://github.com/consul/consul/pull/4806)
+- **Maintenance-Deployment:** Upgrade Ruby to version 2.7.6 [\#4842](https://github.com/consul/consul/pull/4842)
+- **Maintenance-Gems:** Bump rack from 2.2.3 to 2.2.3.1 [\#4838](https://github.com/consul/consul/pull/4838)
+- **Maintenance-Gems:** Bump rails from 5.2.6 to 5.2.7.1 [\#4784](https://github.com/consul/consul/pull/4784) and [\#4824](https://github.com/consul/consul/pull/4824)
+- **Maintenance-Gems:** Bump view_component from 2.37.0 to 2.49.1 [\#4783](https://github.com/consul/consul/pull/4783)
+- **Maintenance-Gems:** Bump nokogiri from 1.12.5 to 1.13.3 [\#4781](https://github.com/consul/consul/pull/4781), [\#4808](https://github.com/consul/consul/pull/4808) and [\#4832](https://github.com/consul/consul/pull/4832)
+- **Maintenance-Gems:** Bump puma from 4.3.10 to 4.3.12 [\#4777](https://github.com/consul/consul/pull/4777) and [\#4799](https://github.com/consul/consul/pull/4799)
+- **Maintenance-Gems:** Bump graphql from 1.11.5 to 1.12.14 [\#4632](https://github.com/consul/consul/pull/4632)
+- **Maintenance-Gems:** Bump sprockets from 3.7.2 to 4.0.2 [\#4609](https://github.com/consul/consul/pull/4609)
+- **Maintenance-Specs:** Reduce conflicting queries/requests in system tests [\#4849](https://github.com/consul/consul/pull/4849)
+- **Maintenance-Specs:** Allow to customize tests common action modules [\#4801](https://github.com/consul/consul/pull/4801)
+- **Maintenance-Specs:** Make it easier to maintain the test suite in forks [\#4755](https://github.com/consul/consul/pull/4755)
+- **Maintenance:** Allow removing investment supports by default [\#4844](https://github.com/consul/consul/pull/4844)
+- **Maintenance:** System emails design [\#4818](https://github.com/consul/consul/pull/4818)
+- **Maintenance:** Make it easier to customize allowed parameters [\#4804](https://github.com/consul/consul/pull/4804)
+- **Maintenance:** Make it easier to customize validations [\#4790](https://github.com/consul/consul/pull/4790), [\#4792](https://github.com/consul/consul/pull/4792)
+- **Maintenance:** Add Rails 6.0 compatibility [\#4789](https://github.com/consul/consul/pull/4789)
+- **Maintenance:** Make it easier to customize JavaScript functions [\#4788](https://github.com/consul/consul/pull/4788)
+- **Maintenance:** Make it easier to customise model constants [\#4787](https://github.com/consul/consul/pull/4787)
+- **Maintenance:** Add dockerignore file [\#4765](https://github.com/consul/consul/pull/4765) and [\#4798](https://github.com/consul/consul/pull/4798)
+- **Maintenance:** Refactor code showing in favor and against votes [\#4763](https://github.com/consul/consul/pull/4763)
+- **Translations:** Make dev seeds independent on available locales [\#4733](https://github.com/consul/consul/pull/4733)
+- **UX:** Make management and admin headers consistent [\#4734](https://github.com/consul/consul/pull/4734)
+- **UX:** Use telephone fields in phone number form controls [\#4643](https://github.com/consul/consul/pull/4643)
+- **UX:** Make confirm alerts show the triggering action [\#4543](https://github.com/consul/consul/pull/4543)
+- **Verification:** Redefine postal code verification methods to use setting config parameter [\#2125](https://github.com/consul/consul/pull/2125)
+
+### Fixed
+
+- **Admin:** Fix crash deleting admin with assigned budgets [\#4823](https://github.com/consul/consul/pull/4823)
+- **Admin:** Remove roles when block or delete users [\#4809](https://github.com/consul/consul/pull/4809)
+- **Budgets:** Fix link and text selection in budget header [\#4825](https://github.com/consul/consul/pull/4825)
+- **Budgets:** Fix background image from Participatory Budgets page [\#4814](https://github.com/consul/consul/pull/4814)
+- **Budgets:** Show budgets map only if feature is enabled [\#4810](https://github.com/consul/consul/pull/4810)
+- **Budgets:** Show assigned heading on investment show [\#4769](https://github.com/consul/consul/pull/4769)
+- **Dashboard:** Fix generating dashboard poster on production [\#4767](https://github.com/consul/consul/pull/4767)
+- **Legislation:** Fix comment notifications on legislation proposals [\#4750](https://github.com/consul/consul/pull/4750)
+- **Maintenance:** Include machine learning settings type [\#4827](https://github.com/consul/consul/pull/4827)
+- **Maintenance:** Fix warnings when compiling SCSS [\#4826](https://github.com/consul/consul/pull/4826)
+- **Maintenance:** Fix invalid HTML in application layout [\#4753](https://github.com/consul/consul/pull/4753)
+- **Maintenance-Specs:** Fix banner link on Chromium 101 [\#4822](https://github.com/consul/consul/pull/4822)
+- **Polls:** Add offline ballot sheet votes to the total vote count [\#4775](https://github.com/consul/consul/pull/4775)
+- **Security:** Fix HTML injection in search results summary [\#4805](https://github.com/consul/consul/pull/4805)
+- **Social-Share:** Fix typo for "instagram" [\#4773](https://github.com/consul/consul/pull/4773)
+- **Translations:** Fix typos in the English version [\#4802](https://github.com/consul/consul/pull/4802)
+- **Translations:** Fix crash on attributes with interpolation arguments [\#4791](https://github.com/consul/consul/pull/4791)
+- **UX:** Fix Confirmation Token to only work once [\#4815](https://github.com/consul/consul/pull/4815)
+- **UX:** Fix checkbox label styles [\#4800](https://github.com/consul/consul/pull/4800)
+- **Verification:** Add census terms page by default [\#4821](https://github.com/consul/consul/pull/4821)
+
+### Removed
+
+- **Bugs:** Remove legacy annotations route [\#4847](https://github.com/consul/consul/pull/4847)
+- **Maintenance-CSS:** Remove unused CSS containing a typo [\#4846](https://github.com/consul/consul/pull/4846)
+- **Maintenance-Gems:** Remove newrelic and rollbar gem dependencies [\#4645](https://github.com/consul/consul/pull/4645)
+- **Maintenance-Refactoring:** Remove and simplify API and votes-related code [\#4807](https://github.com/consul/consul/pull/4807)
+- **Maintenance-Refactoring:** Remove URL methods in models [\#4757](https://github.com/consul/consul/pull/4757)
+- **Maintenance-Specs:** Implement or remove pending tests [\#4803](https://github.com/consul/consul/pull/4803)
+- **Maintenance:** Remove redundant permissions to edit/create records [\#4762](https://github.com/consul/consul/pull/4762)
+- **Maintenance:** Remove legacy code from Madrid's fork [\#4754](https://github.com/consul/consul/pull/4754)
+- **Maintenance:** Remove Paperclip and use just Active Storage [\#4600](https://github.com/consul/consul/pull/4600)
+- **UX:** Remove unnecessary alert on legislation processes [\#4820](https://github.com/consul/consul/pull/4820)
+- **UX:** Remove broken technical assistance text in footer [\#4752](https://github.com/consul/consul/pull/4752)
+
 ## [1.4.1](https://github.com/consul/consul/tree/1.4.1) (2021-11-25)
 
 [Full Changelog](https://github.com/consul/consul/compare/1.4.0...1.4.1)
